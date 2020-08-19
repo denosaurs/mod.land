@@ -1,0 +1,24 @@
+name: DNS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Setup latest deno version
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.x
+
+      - name: Sync DNS
+        env:
+          CF_ZID: ${{ secrets.CF_ZID }}
+          CF_TOK: ${{ secrets.CF_TOK }}
+        run: deno run --allow-net --allow-env --allow-read mod/sync.ts
