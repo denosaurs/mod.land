@@ -1,0 +1,6 @@
+.next
+yarn.lock
+public
+.prettierignore
+.gitignore
+deps.index

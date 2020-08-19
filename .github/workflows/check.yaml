@@ -1,0 +1,44 @@
+name: Check
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Setup latest deno version
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.x
+
+      - name: Check deno fmt
+        run: deno fmt --check mod
+
+      - name: Check deno lint
+        run: deno lint --unstable mod
+
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Setup latest deno version
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.x
+
+      - name: Run integrity check
+        run: deno test --filter "integrity" mod --allow-read
+
+      - name: Run checks
+        run: deno test --filter "checks" mod --allow-read

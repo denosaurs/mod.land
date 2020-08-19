@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,300;1,700&family=Sora&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.modules > li:not(:last-child)::after {
+  content: ", ";
+}
+
+/* removes focus outlines on mouse clicks */
+*:focus:not(:focus-visible),
+*::before:focus:not(:focus-visible),
+*::after:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* https://github.com/denoland/deno_website2/issues/1163 */
+.language-toml > code > .token-line > .table {
+  display: inline;
+}
+
+.justify {
+  @apply text-justify;
+  text-align: justify;
+  text-align: justify-all;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+}
+
+.link {
+  @apply text-blue-500;
+  @apply transition;
+  @apply duration-75;
+  @apply ease-in-out;
+}
+
+.link:hover {
+  @apply text-blue-400;
+}
+
+span.token.plain:empty:before {
+  content: "\200b";
+}
+
+ol.nested {
+  counter-reset: item;
+}
+ol.nested li {
+  display: block;
+}
+ol.nested li:before {
+  font-feature-settings: "kern" 1, "tnum" 1;
+  -webkit-font-feature-settings: "kern" 1, "tnum" 1;
+  -ms-font-feature-settings: "kern" 1, "tnum" 1;
+  -moz-font-feature-settings: "kern" 1, "tnum" 1;
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}
+
+.deno-offwhite .deno-inlinecode {
+  @apply bg-gray-200;
+}
+.prism-code {
+  tab-size: 2;
+  -moz-tab-size: 2;
+}
+.highlight-line {
+  background-color: #fffbdd;
+}

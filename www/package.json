@@ -1,0 +1,36 @@
+{
+  "name": "mod.land",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denosaurs/mod.land.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "cleanup": "rimraf node_modules/.cache && rimraf out",
+    "deploy": "yarn cleanup && yarn build && yarn export && gh-pages -d out -t true -m autopublish",
+    "lint": "prettier --write **/*"
+  },
+  "dependencies": {
+    "next": "9.5.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "autoprefixer": "^9.8.0",
+    "gh-pages": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  }
+}
