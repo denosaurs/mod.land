@@ -1,0 +1,78 @@
+---
+title: Submission Rules & Issues
+---
+
+## Table of Content
+
+## Subdomain determination
+
+to make a pull request you have to determine a valid subdomain for your GitHub
+Page in advance.
+
+### User / Organization Page
+
+if your GitHub URL looks like "foo.github.io" you should request the subdomain
+"foo"
+
+### Project Page
+
+for a GitHub URL like "foo.github.io/bar", the subdomains "foo" or "bar" are
+possible
+
+### Exceptions
+The requested subdomain should match your username or the name of your project
+as close as possible; but exceptions are possible for the sake of clarity, e.g.:
+
+*  "foojs" > "foo"
+*  "foo42" > "foo"
+*  "Foo" > "foo"
+*  "foo-lib" > "foo"
+
+
+### Organization repository mapping
+
+If a subdomain maps to a GitHub or GitLab organization,
+
+```javascript
+'organization': 'organization.git[hub|lab].io',
+```
+
+all repositories of this organization that have published git pages will also 
+be mapped to mod.land.
+
+If the git page of a repository is reachable at 
+https://organization.git[hub|lab].io/repository before switching,
+https://organization.mod.land/repository will be reachable after the switch.
+
+As long as the organization page has a CNAME file,
+the repositories do not need separate CNAME settings for this to work.
+
+## Naming Conflicts
+
+A naming conflict happens when two or more users request the same subdomain 
+(because GitHub usernames are unique, this only happens with identical named
+repositories or if a repository name coincides a username)
+
+In case of a naming conflict, the parties should try to come to a 
+**conciliation first**. If the conflict persists the subdomain will be given to
+the owner of the repository with the most valuable page. GitHub stars (or 
+follower in case of a User-/Organization Page) will be used as measurement.
+
+To give some reliability and an adequate perspective to the holders of 
+subdomains, a reassignment will take place not before 3 months after the naming
+conflict appeared the first time and will not recur within 3 months after that.
+
+**To be on the safe side with your subdomain you should not request one for a 
+personal fork of a prominent project such as "jquery" or "angular".**
+
+## No Content
+
+Before mod.land can accept a pull request there has to be "reasonable content" on
+the page (as stated in step 1 of the readme!). There has to be at least an 
+```index.html``` with some texts, links, images,... 
+
+You should give anybody a clear picture what your page is (or will be) about.
+
+This rule only exists to avoid name grabbing where people reserve one or more 
+subdomains for later use but never put any content on the page. JS.ORG doesn't 
+support this misbehavior.

@@ -1,0 +1,141 @@
+/* PrismJS 1.21.0
+https://prismjs.com/download.html#themes=prism-okaidia&languages=diff&plugins=diff-highlight */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  @apply text-gray-200;
+  background: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  @apply bg-gray-950;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  @apply text-gray-600;
+}
+
+.token.punctuation {
+  @apply text-gray-200;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  @apply text-red-500;
+}
+
+.token.boolean,
+.token.number {
+  @apply text-purple-500;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  @apply text-green-500;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  @apply text-gray-200;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  @apply text-yellow-400;
+}
+
+.token.keyword {
+  @apply text-blue-400;
+}
+
+.token.regex,
+.token.important {
+  @apply text-orange-400;
+}
+
+.token.important,
+.token.bold {
+  @apply font-bold;
+}
+.token.italic {
+  @apply italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.deleted:not(.prefix) {
+  @apply bg-red-700 bg-opacity-25;
+  display: block;
+}
+
+.token.inserted:not(.prefix) {
+  @apply bg-green-700 bg-opacity-25;
+  display: block;
+}
+
+.code-title {
+  @apply -mb-4 select-none mt-2;
+}
+
+.code-title span {
+  @apply ml-5 bg-gray-950 pt-2 px-4 rounded-t-lg font-mono;
+}

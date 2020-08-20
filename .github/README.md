@@ -4,3 +4,7 @@
     <strong>📦 Pretty subdomains for you deno project.</strong>
   </p>
 </div>
+
+Follow the steps in the [mod.land] website to get yourself a pretty subdomain.
+
+[mod.land]: https://mod.land
