@@ -44,4 +44,7 @@ export default <CNAMEs> {
   "autopilot": {
     target: "divy-work.github.io/autopilot-deno",
   },
+  "denopack": {
+    target: "denofn.github.io/denopack",
+  },
 };
