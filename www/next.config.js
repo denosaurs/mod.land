@@ -6,7 +6,7 @@ const titles = require("./plugins/titles");
 
 const slug = require("rehype-slug");
 const prism = require("mdx-prism");
-const link = require('rehype-autolink-headings')
+const link = require("rehype-autolink-headings");
 
 const withMDX = require("next-mdx-enhanced")({
   layoutPath: "layouts",
