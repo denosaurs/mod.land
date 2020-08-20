@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-    - 'www/**'
+      - "www/**"
 
 jobs:
   deploy:

@@ -1,12 +1,12 @@
 .markdown-wrapper {
   text-overflow: ellipsis;
-  @apply max-w-3xl mx-auto p-4 overflow-hidden
+  @apply max-w-3xl mx-auto p-4 overflow-hidden;
 }
 
 ::selection {
-  @apply bg-gray-500 bg-opacity-25
+  @apply bg-gray-500 bg-opacity-25;
 }
-  
+
 .py-05 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
@@ -14,31 +14,31 @@
 
 .markdown {
   @apply leading-normal break-words;
-  
+
   p {
     @apply text-base;
   }
-  
+
   > * + * {
     @apply mt-0 mb-4;
   }
-  
+
   li + li {
     @apply mt-1;
   }
-  
+
   li > p + p {
     @apply mt-6;
   }
-  
+
   strong {
     @apply font-semibold;
   }
-  
+
   a {
     @apply text-blue-300 font-normal transition-colors duration-100;
   }
-  
+
   a:hover {
     @apply text-blue-400;
   }
@@ -46,77 +46,76 @@
   a strong {
     @apply font-normal;
   }
-  
+
   h1 {
     @apply leading-tight border-b text-5xl font-bold mb-4 mt-6 pb-2;
   }
-  
+
   h2 {
     @apply leading-tight text-2xl font-semibold mb-4 mt-6 pb-2;
   }
-  
+
   h3 {
     @apply leading-snug text-lg font-semibold mb-4 mt-6;
   }
-  
+
   h4 {
     @apply leading-none text-base font-semibold mb-4 mt-6;
   }
-  
+
   h5 {
     @apply leading-tight text-sm font-semibold mb-4 mt-6;
   }
-  
+
   h6 {
     @apply leading-tight text-sm font-semibold text-gray-600 mb-4 mt-6;
   }
-  
+
   blockquote {
     @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
   }
-  
+
   code {
     @apply font-mono inline bg-gray-950 px-1 py-05;
   }
-  
+
   pre {
     @apply bg-gray-950 p-4;
   }
-  
+
   pre code {
     @apply block bg-transparent p-0 overflow-visible rounded-none;
   }
-  
+
   ul {
     @apply text-base pl-8 list-disc;
   }
-  
+
   ol {
     @apply text-base pl-8 list-decimal;
   }
-  
+
   kbd {
     @apply text-xs inline-block rounded border px-1 py-05 align-middle font-normal font-mono shadow;
   }
-  
+
   table {
     @apply text-base border-gray-600;
   }
-  
+
   th {
     @apply border py-1 px-3;
   }
-  
+
   td {
     @apply border py-1 px-3;
   }
 
   p {
-    @apply text-gray-400
+    @apply text-gray-400;
   }
-  
+
   .highlight pre {
     @apply bg-gray-100;
   }
 }
-
