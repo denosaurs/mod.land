@@ -132,10 +132,14 @@ pre[class*="language-"] {
   display: block;
 }
 
+.code-title + pre {
+  @apply mt-0;
+}
+
 .code-title {
-  @apply -mb-4 select-none mt-2;
+  @apply select-none mb-0 mt-2 z-10;
 }
 
 .code-title span {
-  @apply ml-5 bg-gray-950 pt-2 px-4 rounded-t-lg font-mono;
+  @apply ml-5 bg-gray-950 py-2 px-4 rounded-t-lg font-mono;
 }
