@@ -1,0 +1,2 @@
+- [x] My submissions follows the [Submission Rules](http://mod.land/issues)
+- [x] I have read and accepted the [Terms and Conditions](http://mod.land/tos)
