@@ -1,5 +1,19 @@
 import { RestrictedNames } from "./mod/types.ts";
 
+// ** Restricted subdomains **
+//
+// WHAT?:
+// This Typescript module exports a RegExp array that are matched
+// against the keys of the exported object from the cnames.ts file.
+// Subdomains that match these regex will not pass the checks and
+// won't be merged.
+//
+// This short (really long) list is put in place to prevent name
+// squatting for common names. This file is always open for
+// discussion, if your project would benefit from having one of
+// these names feel free to open a pull request / issue so we
+// can talk.
+
 export default <RestrictedNames> [
   /\./,
   /^a11y$/,

@@ -23,8 +23,18 @@ jobs:
       - name: Check deno fmt
         run: deno fmt --check mod
 
+      - name: Check root files
+        run: |
+          deno fmt --check cnames.ts
+          deno fmt --check restricted.ts
+
       - name: Check deno lint
         run: deno lint --unstable mod
+
+      - name: Lint root files
+        run: |
+          deno fmt --check cnames.ts
+          deno fmt --check restricted.ts
 
   check:
     runs-on: ubuntu-latest
