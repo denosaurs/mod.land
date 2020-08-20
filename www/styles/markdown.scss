@@ -36,11 +36,25 @@
   }
 
   a {
-    @apply text-blue-300 font-normal transition-colors duration-100;
+    @apply font-normal transition-colors duration-100;
   }
 
-  a:hover {
-    @apply text-blue-400;
+  @media (prefers-color-scheme: dark) {
+    a {
+      @apply text-blue-300;
+    }
+    a:hover {
+      @apply text-blue-400;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    a {
+      @apply text-blue-600;
+    }
+    a:hover {
+      @apply text-blue-700;
+    }
   }
 
   a strong {
@@ -68,19 +82,19 @@
   }
 
   h6 {
-    @apply leading-tight text-sm font-semibold text-gray-600 mb-4 mt-6;
+    @apply leading-tight text-sm font-semibold mb-4 mt-6;
   }
 
   blockquote {
-    @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
+    @apply text-base border-l-4 border-gray-300 pl-4 pr-4;
   }
 
   code {
-    @apply font-mono inline bg-gray-950 px-1 py-05;
+    @apply font-mono inline px-1 py-05;
   }
 
   pre {
-    @apply bg-gray-950 p-4;
+    @apply p-4;
   }
 
   pre code {
@@ -111,11 +125,19 @@
     @apply border py-1 px-3;
   }
 
-  p {
-    @apply text-gray-400;
-  }
-
   .highlight pre {
     @apply bg-gray-100;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    p {
+      @apply text-gray-400;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    p {
+      @apply text-gray-700;
+    }
   }
 }
