@@ -1,3 +1,4 @@
+import React from "react";
 import Document, {
   DocumentContext,
   Html,
