@@ -1,66 +1,88 @@
-/* PrismJS 1.21.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=diff&plugins=diff-highlight */
-/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
 code[class*="language-"],
 pre[class*="language-"] {
-  @apply text-gray-200;
-  background: none;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  text-align: left;
-  white-space: pre;
   word-spacing: normal;
-  word-break: normal;
   word-wrap: normal;
   line-height: 1.5;
-
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
   tab-size: 2;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
+  @apply break-normal whitespace-pre text-left;
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
   margin: 0.5em 0;
-  overflow: auto;
-  border-radius: 0.3em;
+  @apply overflow-auto rounded-md p-3 my-2;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  @apply bg-gray-950;
+@media (prefers-color-scheme: dark) {
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    @apply text-gray-200;
+    @apply bg-gray-950;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+    @apply text-gray-950;
+    @apply bg-gray-100;
+  }
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  padding: 0.1em;
-  border-radius: 0.3em;
-  white-space: normal;
+  @apply whitespace-normal rounded-md p-1;
 }
 
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-  @apply text-gray-600;
+@media (prefers-color-scheme: dark) {
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    @apply text-gray-600;
+  }
+
+  .token.punctuation {
+    @apply text-gray-200;
+  }
+
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string,
+  .token.variable {
+    @apply text-gray-200;
+  }
 }
 
-.token.punctuation {
-  @apply text-gray-200;
+@media (prefers-color-scheme: light) {
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    @apply text-gray-400;
+  }
+
+  .token.punctuation {
+    @apply text-gray-800;
+  }
+
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string,
+  .token.variable {
+    @apply text-gray-800;
+  }
 }
 
 .token.namespace {
-  opacity: 0.7;
+  @apply opacity-75;
 }
 
 .token.property,
@@ -83,15 +105,6 @@ pre[class*="language-"] {
 .token.builtin,
 .token.inserted {
   @apply text-green-500;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-  @apply text-gray-200;
 }
 
 .token.atrule,
@@ -118,18 +131,24 @@ pre[class*="language-"] {
   @apply italic;
 }
 
-.token.entity {
-  cursor: help;
-}
-
 .token.deleted:not(.prefix) {
-  @apply bg-red-700 bg-opacity-25;
-  display: block;
+  @apply bg-red-700 bg-opacity-25 block;
 }
 
 .token.inserted:not(.prefix) {
-  @apply bg-green-700 bg-opacity-25;
-  display: block;
+  @apply bg-green-700 bg-opacity-25 block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .code-title span {
+    @apply bg-gray-950 text-gray-200;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .code-title span {
+    @apply bg-gray-100 text-gray-950;
+  }
 }
 
 .code-title + pre {
@@ -141,5 +160,5 @@ pre[class*="language-"] {
 }
 
 .code-title span {
-  @apply bg-gray-950 text-gray-200 py-2 px-3 rounded-t-md font-mono;
+  @apply py-2 px-3 rounded-t-md font-mono;
 }
