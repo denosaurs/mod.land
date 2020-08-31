@@ -1,5 +1,7 @@
+// Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
+
 import { assert, assertEquals } from "./test_deps.ts";
-import { CNAMEs } from "../types.ts";
+import { CNAMEs } from "../mod.ts";
 
 Deno.test(
   "checks | cnames",

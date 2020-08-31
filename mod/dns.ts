@@ -1,7 +1,7 @@
 // Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
 
 import { CF_ZID, CF_TOK } from "./env.ts";
-import { Record } from "./types.ts";
+import { DomainRecord } from "./mod.ts";
 
 const CF_BASE = "https://api.cloudflare.com/client/v4/";
 
@@ -10,7 +10,7 @@ export interface CFResponse<T> {
   success: boolean;
   errors: string[];
   messages: string[];
-  result_info: object;
+  result_info: Record<string, unknown>;
 }
 
 export interface CFRecord {
@@ -23,7 +23,7 @@ export interface CFRecord {
 async function fetchCF(
   method: string,
   endpoint: string,
-  data?: object,
+  data?: Record<string, unknown>,
 ): Promise<Response> {
   return await fetch(`${CF_BASE}${endpoint}`, {
     method,
@@ -38,7 +38,7 @@ async function fetchCF(
 async function cf<T>(
   method: string,
   endpoint: string,
-  data?: object,
+  data?: Record<string, unknown>,
 ): Promise<CFResponse<T>> {
   const response = await fetchCF(method, endpoint, data);
   return await response.json();
@@ -74,7 +74,7 @@ export async function getCNAMEs(): Promise<{ [key: string]: CFRecord }> {
   return Object.fromEntries(records.map((cname) => [cname.name, cname]));
 }
 
-export async function createCNAME(name: string, cname: Record) {
+export async function createCNAME(name: string, cname: DomainRecord) {
   const res = await cf<CFRecord>("POST", `zones/${CF_ZID}/dns_records`, {
     type: "CNAME",
     name: name,
@@ -85,7 +85,11 @@ export async function createCNAME(name: string, cname: Record) {
   if (!res.success) throw new Error(Deno.inspect(res));
 }
 
-export async function updateCNAME(id: string, name: string, cname: Record) {
+export async function updateCNAME(
+  id: string,
+  name: string,
+  cname: DomainRecord,
+) {
   const res = await cf<CFRecord>("PATCH", `zones/${CF_ZID}/dns_records/${id}`, {
     type: "CNAME",
     name: name,

@@ -5,6 +5,10 @@
   </p>
 </div>
 
+![Checks Status](https://img.shields.io/github/workflow/status/denosaurs/mod.land/Check?label=Checks)
+![Deploy Status](https://img.shields.io/github/workflow/status/denosaurs/mod.land/Deploy?label=Deploy)
+![DNS Status](https://img.shields.io/github/workflow/status/denosaurs/mod.land/DNS?label=DNS)
+
 Taking inspiration from the great [js.org][js-org] project we at
 @denosaurs thought of giving something back to the deno community: a free and
 sleek URL where you can host a free website for your deno project.

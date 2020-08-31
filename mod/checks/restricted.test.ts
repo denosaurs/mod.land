@@ -1,6 +1,8 @@
+// Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
+
 import { assert } from "./test_deps.ts";
 
-import { CNAMEs, RestrictedNames } from "../types.ts";
+import { CNAMEs, RestrictedNames } from "../mod.ts";
 
 Deno.test(
   "checks | restricted",

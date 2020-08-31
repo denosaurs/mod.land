@@ -1,4 +1,4 @@
-import { CNAMEs } from "./mod/types.ts";
+import { CNAMEs } from "./mod/mod.ts";
 
 // ** Active subdomains **
 //

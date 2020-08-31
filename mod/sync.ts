@@ -1,18 +1,17 @@
 // Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
 
-import { delay } from "./deps.ts";
+import { log, delay } from "./deps.ts";
 
-import log from "./log.ts";
 import dns from "./dns.ts";
 
-import { Record } from "./types.ts";
+import { DomainRecord } from "./mod.ts";
 
 const DOMAIN = "mod.land";
 
 const logger = log.prefix("mod");
 
 if (import.meta.main) {
-  await log.setup();
+  await log.setup({ filter: "INFO" });
 
   logger.info("mod.land CLI is running 🌟");
   logger.info("gathering CNAMEs from cloudflare api...");
@@ -25,12 +24,12 @@ if (import.meta.main) {
   const local = (await import("../cnames.ts")).default;
   logger.warning(`got ${Object.keys(local).length} local CNAMEs in repo`);
 
-  const created: [string, Record][] = [];
-  const updated: [string, Record][] = [];
+  const created: [string, DomainRecord][] = [];
+  const updated: [string, DomainRecord][] = [];
 
   logger.info(`inspecting records ...`);
 
-  for (let [name, record] of Object.entries<Record>(local)) {
+  for (let [name, record] of Object.entries<DomainRecord>(local)) {
     record = Object.assign({}, { proxied: true }, record);
 
     if (name === "@") name = DOMAIN; // root

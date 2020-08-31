@@ -1,4 +1,4 @@
-import { RestrictedNames } from "./mod/types.ts";
+import { RestrictedNames } from "./mod/mod.ts";
 
 // ** Restricted subdomains **
 //
