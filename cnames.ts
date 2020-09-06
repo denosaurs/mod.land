@@ -47,4 +47,7 @@ export default <CNAMEs> {
   "denopack": {
     target: "denofn.github.io/denopack",
   },
+  "discordeno": {
+    target: "discordeno.netlify.app",
+  },
 };
