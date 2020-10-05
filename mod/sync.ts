@@ -1,6 +1,6 @@
 // Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
 
-import { log, delay } from "./deps.ts";
+import { delay, log } from "./deps.ts";
 
 import dns from "./dns.ts";
 

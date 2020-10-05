@@ -1,6 +1,6 @@
 // Copyright 2020-present the denosaurs team. All rights reserved. MIT license.
 
-import { CF_ZID, CF_TOK } from "./env.ts";
+import { CF_TOK, CF_ZID } from "./env.ts";
 import { DomainRecord } from "./mod.ts";
 
 const CF_BASE = "https://api.cloudflare.com/client/v4/";
