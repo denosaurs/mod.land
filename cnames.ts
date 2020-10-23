@@ -53,4 +53,7 @@ export default <CNAMEs> {
   "discordeno": {
     target: "discordeno.netlify.app",
   },
+  "crewdevio": {
+    target: "crewdevio.vercel.app",
+  },
 };
