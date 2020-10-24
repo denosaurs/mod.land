@@ -8,7 +8,7 @@ import { DomainRecord } from "./mod.ts";
 
 const DOMAIN = "mod.land";
 
-const logger = log.prefix("mod");
+const logger = log.create("mod");
 
 if (import.meta.main) {
   await log.setup({ filter: "INFO" });
@@ -29,7 +29,7 @@ if (import.meta.main) {
 
   logger.info(`inspecting records ...`);
 
-  for (const [name, record] of Object.entries<DomainRecord>(local)) {
+  for (let [name, record] of Object.entries<DomainRecord>(local)) {
     record = Object.assign({}, { proxied: true }, record);
 
     if (name === "@") name = DOMAIN; // root
@@ -61,7 +61,7 @@ if (import.meta.main) {
   }
 
   logger.info("checking for deleted records...");
-  for (const name of Object.keys(local)) {
+  for (let name of Object.keys(local)) {
     if (name === "@") name = DOMAIN; // root
     else name = `${name}.${DOMAIN}`; // subd
 
