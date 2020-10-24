@@ -53,7 +53,7 @@ export async function getCNAMEs(): Promise<{ [key: string]: CFRecord }> {
   query.append("type", "CNAME");
 
   const per = 100;
-  let page = 1;
+  const page = 1;
 
   query.set("per_page", String(per));
 
@@ -62,7 +62,7 @@ export async function getCNAMEs(): Promise<{ [key: string]: CFRecord }> {
 
   do {
     query.set("page", String(page));
-    let response = await cf<CFRecord[]>(
+    const response = await cf<CFRecord[]>(
       "GET",
       `zones/${CF_ZID}/dns_records?${query.toString()}`,
     );

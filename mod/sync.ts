@@ -29,7 +29,7 @@ if (import.meta.main) {
 
   logger.info(`inspecting records ...`);
 
-  for (let [name, record] of Object.entries<DomainRecord>(local)) {
+  for (const [name, record] of Object.entries<DomainRecord>(local)) {
     record = Object.assign({}, { proxied: true }, record);
 
     if (name === "@") name = DOMAIN; // root
@@ -49,19 +49,19 @@ if (import.meta.main) {
   logger.warning(`found ${created.length} CNAMEs to create`);
   logger.warning(`found ${updated.length} CNAMEs to update`);
 
-  for (let [name, record] of created) {
+  for (const [name, record] of created) {
     await dns.createCNAME(name, record);
     await delay(100);
   }
 
-  for (let [name, record] of updated) {
+  for (const [name, record] of updated) {
     const ref = registered[name];
     await dns.updateCNAME(ref.id, name, record);
     await delay(100);
   }
 
   logger.info("checking for deleted records...");
-  for (let name of Object.keys(local)) {
+  for (const name of Object.keys(local)) {
     if (name === "@") name = DOMAIN; // root
     else name = `${name}.${DOMAIN}`; // subd
 
@@ -71,7 +71,7 @@ if (import.meta.main) {
   const deleted = Object.entries(registered);
   if (deleted.length > 0) {
     logger.info(`found ${deleted.length} deleted CNAMEs`);
-    for (let [_, ref] of deleted) {
+    for (const [_, ref] of deleted) {
       dns.deleteCNAME(ref.id);
     }
   } else {
