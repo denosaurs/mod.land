@@ -44,6 +44,9 @@ export default <CNAMEs> {
   "autopilot": {
     target: "divy-work.github.io/autopilot-deno",
   },
+  "crewdevio": {
+    target: "crewdevio.vercel.app",
+  },
   "denopack": {
     target: "denofn.github.io/denopack",
   },
@@ -52,8 +55,5 @@ export default <CNAMEs> {
   },
   "discordeno": {
     target: "discordeno.netlify.app",
-  },
-  "crewdevio": {
-    target: "crewdevio.vercel.app",
   },
 };
