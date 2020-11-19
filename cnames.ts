@@ -54,6 +54,6 @@ export default <CNAMEs> {
     target: "dext.fly.dev",
   },
   "discordeno": {
-    target: "discordeno.netlify.app",
+    target: "https://skillz4killz.github.io/Discordeno",
   },
 };
