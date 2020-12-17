@@ -54,7 +54,7 @@ export default <CNAMEs> {
     target: "dext.fly.dev",
   },
   "discordeno": {
-    target: "skillz4killz.github.io/Discordeno",
+    target: "discordeno.github.io/discordeno",
   },
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
