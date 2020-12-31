@@ -47,14 +47,14 @@ export default <CNAMEs> {
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
-  "discordbot": {
-    target: "skillz4killz.github.io/gamer-landing",
-  },
   "denopack": {
     target: "denofn.github.io/denopack",
   },
   "dext": {
     target: "dext.fly.dev",
+  },
+  "discordbot": {
+    target: "skillz4killz.github.io/gamer-landing",
   },
   "discordeno": {
     target: "discordeno.github.io/discordeno",
