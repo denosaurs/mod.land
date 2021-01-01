@@ -53,6 +53,9 @@ export default <CNAMEs> {
   "dext": {
     target: "dext.fly.dev",
   },
+  "discordbot": {
+    target: "skillz4killz.github.io/gamer-landing",
+  },
   "discordeno": {
     target: "discordeno.github.io/discordeno",
   },
