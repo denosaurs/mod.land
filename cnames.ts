@@ -63,6 +63,6 @@ export default <CNAMEs> {
     target: "skillz4killz.github.io/gamer-deno",
   },
   "harmony": {
-    target: "harmony-org.github.io",
+    target: "harmonyland.github.io",
   },
 };
