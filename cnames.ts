@@ -65,4 +65,7 @@ export default <CNAMEs> {
   "harmony": {
     target: "harmonyland.github.io",
   },
+"keyv": {
+  target: "tejasag.github.io/deno-keyv",
+}
 };
