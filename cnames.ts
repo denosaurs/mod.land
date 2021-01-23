@@ -67,5 +67,5 @@ export default <CNAMEs> {
   },
 "keyv": {
   target: "tejasag.github.io/deno-keyv",
-}
+},
 };
