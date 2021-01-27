@@ -62,6 +62,9 @@ export default <CNAMEs> {
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
   },
+  "ghaerdi": {
+    target: "ghaerdi.vercel.app",
+  },
   "harmony": {
     target: "harmonyland.github.io",
   },
