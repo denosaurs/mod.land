@@ -73,5 +73,5 @@ export default <CNAMEs> {
   },
   "slashdeno": {
     target: "hosting.gitbook.io",
-  }
+  },
 };

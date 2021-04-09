@@ -6,8 +6,6 @@ labels: change
 assignees: ""
 ---
 
-**Describe change**
-A clear and concise description of what the change is.
+**Describe change** A clear and concise description of what the change is.
 
-**Additional context**
-Add any other context about the improvement here.
+**Additional context** Add any other context about the improvement here.
