@@ -10,7 +10,7 @@ export interface CFResponse<T> {
   success: boolean;
   errors: string[];
   messages: string[];
-  result_info: Record<string, unknown>;
+  resultInfo: Record<string, unknown>;
 }
 
 export interface CFRecord {
@@ -63,50 +63,4 @@ export async function getCNAMEs(): Promise<{ [key: string]: CFRecord }> {
   do {
     query.set("page", String(page));
     const response = await cf<CFRecord[]>(
-      "GET",
-      `zones/${CF_ZID}/dns_records?${query.toString()}`,
-    );
-    if (!response.result) break;
-    result = response.result;
-    records = records.concat(result);
-  } while (result.length === per);
-
-  return Object.fromEntries(records.map((cname) => [cname.name, cname]));
-}
-
-export async function createCNAME(name: string, cname: DomainRecord) {
-  const res = await cf<CFRecord>("POST", `zones/${CF_ZID}/dns_records`, {
-    type: "CNAME",
-    name: name,
-    content: asHost(cname.target),
-    ttl: 1,
-    proxied: cname.proxied,
-  });
-  if (!res.success) throw new Error(Deno.inspect(res));
-}
-
-export async function updateCNAME(
-  id: string,
-  name: string,
-  cname: DomainRecord,
-) {
-  const res = await cf<CFRecord>("PATCH", `zones/${CF_ZID}/dns_records/${id}`, {
-    type: "CNAME",
-    name: name,
-    content: asHost(cname.target),
-    ttl: 1,
-    proxied: cname.proxied,
-  });
-  if (!res.success) throw new Error(Deno.inspect(res));
-}
-
-export async function deleteCNAME(id: string) {
-  await cf<void>("DELETE", `zones/${CF_ZID}/dns_records/${id}`);
-}
-
-export default {
-  getCNAMEs,
-  createCNAME,
-  updateCNAME,
-  deleteCNAME,
-};
+     
