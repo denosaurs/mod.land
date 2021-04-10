@@ -47,6 +47,10 @@ export default <CNAMEs> {
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
+  "denodoc": {
+    target: "denodoc.deno.dev",
+    proxied: false,
+  },
   "denopack": {
     target: "denofn.github.io/denopack",
   },
