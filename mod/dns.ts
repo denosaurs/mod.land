@@ -10,7 +10,7 @@ export interface CFResponse<T> {
   success: boolean;
   errors: string[];
   messages: string[];
-  result_info: Record<string, unknown>;
+  "result_info": Record<string, unknown>;
 }
 
 export interface CFRecord {
