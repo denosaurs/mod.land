@@ -61,7 +61,7 @@ export default <CNAMEs> {
     target: "skillz4killz.github.io/gamer-landing",
   },
   "discordeno": {
-    target: "discordeno.github.io/discordeno",
+    target: "discordeno.github.io/guide",
   },
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
