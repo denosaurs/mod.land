@@ -77,6 +77,6 @@ export default <CNAMEs> {
   },
   "slashdeno": {
     target: "hosting.gitbook.io",
-    proxied: false
+    proxied: false,
   },
 };
