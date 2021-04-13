@@ -47,6 +47,10 @@ export default <CNAMEs> {
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
+  "denodoc": {
+    target: "denodoc.deno.dev",
+    proxied: false,
+  },
   "denopack": {
     target: "denofn.github.io/denopack",
   },
@@ -57,7 +61,7 @@ export default <CNAMEs> {
     target: "skillz4killz.github.io/gamer-landing",
   },
   "discordeno": {
-    target: "discordeno.github.io/discordeno",
+    target: "discordeno.github.io/guide",
   },
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
