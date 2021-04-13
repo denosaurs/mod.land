@@ -71,7 +71,11 @@ export default <CNAMEs> {
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
+  "slashdeno": {
+    target: "hosting.gitbook.io",
+    proxied: false,
+  },
   "x": {
-    target: "xdev.deno.dev"
-  }
+    target: "xdev.deno.dev",
+  },
 };
