@@ -79,4 +79,7 @@ export default <CNAMEs> {
     target: "hosting.gitbook.io",
     proxied: false,
   },
+  "x": {
+    target: "xdev.deno.dev",
+  },
 };
