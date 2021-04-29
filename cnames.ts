@@ -63,6 +63,9 @@ export default <CNAMEs> {
   "discordeno": {
     target: "discordeno.github.io/guide",
   },
+  "dyno": {
+    target: "dynoland.netlify.app",
+  },
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
   },
