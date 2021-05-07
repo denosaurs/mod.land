@@ -60,11 +60,11 @@ export default <CNAMEs> {
   "discordbot": {
     target: "skillz4killz.github.io/gamer-landing",
   },
+  "discorddn": {
+    target: "discorddn.github.io/docs",
+  },
   "discordeno": {
     target: "discordeno.github.io/guide",
-  },
-  "discorddn": {
-    target: "discorddn.vercel.app"
   },
   "dyno": {
     target: "dynoland.netlify.app",
