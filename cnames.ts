@@ -78,6 +78,9 @@ export default <CNAMEs> {
   "harmony": {
     target: "harmonyland.github.io",
   },
+  "harmony-korean": {
+    target: "https://akiacode.github.io/harmony.korean"
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
