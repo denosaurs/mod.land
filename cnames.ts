@@ -91,4 +91,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "natico": {
+    target: "naticoo.github.io",
+  },
 };
