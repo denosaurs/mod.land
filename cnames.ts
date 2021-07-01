@@ -84,14 +84,14 @@ export default <CNAMEs> {
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
+  "natico": {
+    target: "naticoo.github.io",
+  },
   "slashdeno": {
     target: "hosting.gitbook.io",
     proxied: false,
   },
   "x": {
     target: "xdev.deno.dev",
-  },
-  "natico": {
-    target: "naticoo.github.io",
-  },
+  }
 };
