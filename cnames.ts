@@ -87,6 +87,9 @@ export default <CNAMEs> {
   "natico": {
     target: "naticoo.github.io",
   },
+  "range": {
+    target: "leonskidev.github.io/range",
+  },
   "slashdeno": {
     target: "hosting.gitbook.io",
     proxied: false,
@@ -94,7 +97,4 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
-  "range": {
-    target: "leonskidev.github.io/range",
-  }
 };
