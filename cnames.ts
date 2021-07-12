@@ -94,4 +94,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "range": {
+    target: "leonskidev.github.io/range",
+  }
 };
