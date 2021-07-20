@@ -81,6 +81,9 @@ export default <CNAMEs> {
   "harmony-korean": {
     target: "akiacode.github.io/harmony.korean",
   },
+  "chalk": {
+    target: "https://chalk-web-9tk57eu61-gurkan.vercel.app/",
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
