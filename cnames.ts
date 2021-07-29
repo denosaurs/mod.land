@@ -87,9 +87,6 @@ export default <CNAMEs> {
   "natico": {
     target: "naticoo.github.io",
   },
-  "randomfox": {
-    target: "randomfox-docs.vercel.app",
-  },
   "range": {
     target: "leonskidev.github.io/range",
   },
