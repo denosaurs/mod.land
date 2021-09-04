@@ -97,4 +97,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "shyngys": {
+    target: "salemalem.github.io/twd-portfolio",
+  },
 };
