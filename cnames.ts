@@ -90,12 +90,12 @@ export default <CNAMEs> {
   "range": {
     target: "leonskidev.github.io/range",
   },
+  "shyngys": {
+    target: "salemalem.github.io/twd-portfolio",
+  },
   "slashdeno": {
     target: "hosting.gitbook.io",
     proxied: false,
-  },
-  "shyngys": {
-    target: "salemalem.github.io/twd-portfolio",
   },
   "x": {
     target: "xdev.deno.dev",
