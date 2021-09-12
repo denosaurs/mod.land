@@ -41,6 +41,9 @@ export default <CNAMEs> {
   "@": {
     target: "denosaurs.github.io/mod.land",
   },
+  "authenticator": {
+    target: "https://evergeneio.github.io/authenticator/".,
+  },
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
