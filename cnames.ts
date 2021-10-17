@@ -100,4 +100,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "agorushkin": {
+    target: "agorushkin.github.io",
+  },
 };
