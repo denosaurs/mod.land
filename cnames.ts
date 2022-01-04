@@ -97,6 +97,9 @@ export default <CNAMEs> {
     target: "hosting.gitbook.io",
     proxied: false,
   },
+  "the-all-javascript-blog": {
+    target: "the-all-javascript-blog.vercel.app",
+  },
   "x": {
     target: "xdev.deno.dev",
   },
