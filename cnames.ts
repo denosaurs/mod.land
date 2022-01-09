@@ -41,11 +41,11 @@ export default <CNAMEs> {
   "@": {
     target: "denosaurs.github.io/mod.land",
   },
-  "autopilot": {
-    target: "littledivy.github.io/autopilot-deno",
-  },
   "atordvairn": {
     target: "atordvairn.netlify.app",
+  },
+  "autopilot": {
+    target: "littledivy.github.io/autopilot-deno",
   },
   "crewdevio": {
     target: "crewdevio.vercel.app",
