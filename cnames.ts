@@ -44,6 +44,9 @@ export default <CNAMEs> {
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
+  "atordvairn": {
+    target: "atordvairn.netlify.app",
+  },
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
