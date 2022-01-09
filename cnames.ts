@@ -41,6 +41,9 @@ export default <CNAMEs> {
   "@": {
     target: "denosaurs.github.io/mod.land",
   },
+  "atordvairn": {
+    target: "atordvairn.netlify.app",
+  },
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
