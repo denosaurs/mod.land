@@ -106,4 +106,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "dvd": {
+    target: "arnon001.github.io/dvd",
+  },
 };
