@@ -106,4 +106,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "adons": {
+    target: "adons.vercel.app",
+  },
 };
