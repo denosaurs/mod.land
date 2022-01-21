@@ -106,4 +106,10 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "god": {
+    target: "docs.godwhite.tk",
+  },
+  "godwhite": {
+    target: "docs.godwhite.tk",
+  },
 };
