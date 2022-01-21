@@ -78,6 +78,12 @@ export default <CNAMEs> {
   "ghaerdi": {
     target: "ghaerdi.netlify.app",
   },
+  "god": {
+    target: "docs.godwhite.tk",
+  },
+  "godwhite": {
+    target: "docs.godwhite.tk",
+  },
   "harmony": {
     target: "harmonyland.github.io",
   },
@@ -105,11 +111,5 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
-  },
-  "god": {
-    target: "docs.godwhite.tk",
-  },
-  "godwhite": {
-    target: "docs.godwhite.tk",
   },
 };
