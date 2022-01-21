@@ -41,6 +41,9 @@ export default <CNAMEs> {
   "@": {
     target: "denosaurs.github.io/mod.land",
   },
+  "adons": {
+    target: "adons.vercel.app",
+  },
   "atordvairn": {
     target: "atordvairn.netlify.app",
   },
