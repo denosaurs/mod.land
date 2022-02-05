@@ -118,4 +118,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "anas": {
+    target: "anasx01.github.io"
+  }
 };
