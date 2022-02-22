@@ -115,6 +115,9 @@ export default <CNAMEs> {
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
   },
+  "thebigbot": {
+    target: "thebigbot0000.github.io",
+  },
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
