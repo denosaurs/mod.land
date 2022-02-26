@@ -112,6 +112,9 @@ export default <CNAMEs> {
     target: "hosting.gitbook.io",
     proxied: false,
   },
+  "suzumi": {
+    target: "suzumi-ultimate.up.railway.app",
+  },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
   },
