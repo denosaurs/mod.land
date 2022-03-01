@@ -113,7 +113,7 @@ export default <CNAMEs> {
     proxied: false,
   },
   "suzumi": {
-    target: "suzumi-ultimate.up.railway.app",
+    target: "suzumi.up.railway.app",
   },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
