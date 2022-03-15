@@ -108,6 +108,9 @@ export default <CNAMEs> {
   "range": {
     target: "leonskidev.github.io/range",
   },
+  "rgrullon": {
+    target: "rgrullon.netlify.app",
+  },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
   },
