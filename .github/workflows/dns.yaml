@@ -3,7 +3,7 @@ name: DNS
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - "www/**"
 
