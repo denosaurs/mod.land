@@ -130,6 +130,9 @@ export default <CNAMEs> {
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
+  "whistle": {
+    target: "whistle.deno.dev",
+  },
   "x": {
     target: "xdev.deno.dev",
   },
