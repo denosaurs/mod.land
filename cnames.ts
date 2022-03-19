@@ -132,6 +132,7 @@ export default <CNAMEs> {
   },
   "whistle": {
     target: "whistle.deno.dev",
+    proxied: false,
   },
   "x": {
     target: "xdev.deno.dev",
