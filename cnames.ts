@@ -75,6 +75,9 @@ export default <CNAMEs> {
   "dyno": {
     target: "dynoland.netlify.app",
   },
+  "gabry": {
+    target: "gabry-site-production.up.railway.app",
+  },
   "gamer": {
     target: "skillz4killz.github.io/gamer-deno",
   },
@@ -105,12 +108,18 @@ export default <CNAMEs> {
   "range": {
     target: "leonskidev.github.io/range",
   },
+  "rgrullon": {
+    target: "rgrullon.netlify.app",
+  },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
   },
   "slashdeno": {
     target: "hosting.gitbook.io",
     proxied: false,
+  },
+  "suzumi": {
+    target: "suzumi-ultimate.up.railway.app",
   },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
@@ -123,6 +132,10 @@ export default <CNAMEs> {
   },
   "usbo": {
     target: "usbokirishima.github.io/profile",
+  },
+  "whistle": {
+    target: "whistle.deno.dev",
+    proxied: false,
   },
   "x": {
     target: "xdev.deno.dev",
