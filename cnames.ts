@@ -130,9 +130,6 @@ export default <CNAMEs> {
   "thebigbot": {
     target: "thebigbot0000.github.io",
   },
-  "time": {
-    target: "thebigbot0000.github.io/TimeSpan",
-  },
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
