@@ -93,6 +93,9 @@ export default <CNAMEs> {
   "harmony": {
     target: "harmonyland.github.io",
   },
+  "howtoask": {
+    target: "thebigbot.github.io/howtoask/",
+  },
   "harmony-korean": {
     target: "akiacode.github.io/harmony.korean",
   },
