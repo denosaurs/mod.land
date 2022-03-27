@@ -137,4 +137,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "cr": {
+    target: "rahalkar.dev",
+  }
 };
