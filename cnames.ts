@@ -137,4 +137,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "ale": {
+    target: "ale-006.github.io",
+  },
 };
