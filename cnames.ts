@@ -137,4 +137,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "vyxo": {
+    target: "vyxo.github.io",
+  },
 };
