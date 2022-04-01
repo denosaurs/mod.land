@@ -53,6 +53,9 @@ export default <CNAMEs> {
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
+  "cr": {
+    target: "rahalkar.dev",
+  },
   "denodoc": {
     target: "denodoc.deno.dev",
     proxied: false,
@@ -136,8 +139,5 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
-  },
-  "cr": {
-    target: "rahalkar.dev",
   }
 };
