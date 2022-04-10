@@ -130,6 +130,9 @@ export default <CNAMEs> {
   "suzumi": {
     target: "suzumi-ultimate.up.railway.app",
   },
+  "tachib-shin": {
+    target: "tachibana-shin.github.io",
+  },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
   },
