@@ -139,6 +139,9 @@ export default <CNAMEs> {
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
+  "ngcchinl": {
+    target: "zeusgangzz.github.io",
+  },
   "whistle": {
     target: "whistle.deno.dev",
     proxied: false,
