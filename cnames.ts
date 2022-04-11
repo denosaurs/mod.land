@@ -145,5 +145,8 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
+  },
+  "ngcchinl": {
+    target: "zeusgangzz.github.io",
   }
 };
