@@ -120,6 +120,9 @@ export default <CNAMEs> {
   "rgrullon": {
     target: "rgrullon.netlify.app",
   },
+  "roleful": {
+    target: "nottca.github.io/Rolefulsite",
+  },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
   },
