@@ -145,5 +145,14 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
+  },
+  "ashwin": {
+    target: "ashwinr.tech",
+  },
+  "a": {
+    target: "ashwinr.tech",
+  },
+  "ash": {
+    target: "ashwinr.tech",
   }
 };
