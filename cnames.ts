@@ -66,6 +66,9 @@ export default <CNAMEs> {
   "dext": {
     target: "dext.fly.dev",
   },
+  "dimszyxx": {
+    target: "6fe0555b-c207-4d0a-bd14-7ba43c32fcff.id.repl.co",
+  },
   "discordbot": {
     target: "skillz4killz.github.io/gamer-landing",
   },
