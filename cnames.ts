@@ -145,5 +145,8 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
+  },
+  "mew": {
+    target: "meowier.github.io/student-deno-land"
   }
 };
