@@ -50,9 +50,6 @@ export default <CNAMEs> {
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
-  "blizzardbluff": {
-    target: "hanandito.github.io/blizzardbluff",
-  },
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
