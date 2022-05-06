@@ -146,7 +146,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
-  "mqol-modpack": {
+  "akiyue-mqol": {
     target: "akiyuee.github.io/minimal-qol-modpack"
   }
 };
