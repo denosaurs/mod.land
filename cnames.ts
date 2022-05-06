@@ -50,11 +50,11 @@ export default <CNAMEs> {
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
-  "crewdevio": {
-    target: "crewdevio.vercel.app",
-  },
   "cr": {
     target: "rahalkar.dev",
+  },
+  "crewdevio": {
+    target: "crewdevio.vercel.app",
   },
   "denodoc": {
     target: "denodoc.deno.dev",
@@ -145,5 +145,5 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
-  }
+  },
 };
