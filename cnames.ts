@@ -128,7 +128,8 @@ export default <CNAMEs> {
     proxied: false,
   },
   "suzumi": {
-    target: "suzumi-ultimate.up.railway.app",
+    target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
+    proxied: false,
   },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
