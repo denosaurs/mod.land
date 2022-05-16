@@ -45,7 +45,7 @@ export default <CNAMEs> {
     target: "adons.vercel.app",
   },
   "akiyue-mqol": {
-    target: "https://akiyuee.github.io/minimal-qol-modpack/",
+    target: "akiyuee.github.io/minimal-qol-modpack",
   },
   "atordvairn": {
     target: "atordvairn.netlify.app",
