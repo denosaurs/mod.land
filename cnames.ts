@@ -102,6 +102,9 @@ export default <CNAMEs> {
   "imlshorid": {
     target: "imlshorid.github.io",
   },
+  "iseko": {
+    target: "lolicchi.github.io/Iseko",
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
