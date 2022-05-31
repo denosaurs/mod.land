@@ -127,6 +127,9 @@ export default <CNAMEs> {
     target: "hosting.gitbook.io",
     proxied: false,
   },
+  "sneachta": {
+    target: "sneachta.vercel.app",
+  },
   "suzumi": {
     target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
     proxied: false,
