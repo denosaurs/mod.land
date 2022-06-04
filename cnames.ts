@@ -104,6 +104,7 @@ export default <CNAMEs> {
   },
   "janda": {
     target: "janda.up.railway.app",
+    proxied: false,
   },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
