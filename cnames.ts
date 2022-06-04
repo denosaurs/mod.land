@@ -117,6 +117,9 @@ export default <CNAMEs> {
   "python": {
     target: "pip.deno.dev",
   },
+  "pzwboy": {
+    target: "pzwboy.github.io",
+  },
   "range": {
     target: "leonskidev.github.io/range",
   },
