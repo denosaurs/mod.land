@@ -150,4 +150,7 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "zeusgang": {
+    target: "zeusgangws.github.io",
+  },
 };
