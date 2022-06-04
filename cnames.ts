@@ -102,6 +102,9 @@ export default <CNAMEs> {
   "imlshorid": {
     target: "imlshorid.github.io",
   },
+  "janda": {
+    target: "janda.up.railway.app",
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
