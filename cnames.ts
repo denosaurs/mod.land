@@ -116,7 +116,7 @@ export default <CNAMEs> {
     target: "naticoo.github.io",
   },
   "python": {
-    target: "pip.deno.dev",
+    target: "python-mod-land.deno.dev",
   },
   "range": {
     target: "leonskidev.github.io/range",
