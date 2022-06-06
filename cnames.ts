@@ -133,6 +133,7 @@ export default <CNAMEs> {
   },
   "sneachta": {
     target: "sneachta.vercel.app",
+    proxied: false,
   },
   "suzumi": {
     target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
