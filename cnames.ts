@@ -44,6 +44,10 @@ export default <CNAMEs> {
   "adons": {
     target: "adons.vercel.app",
   },
+  "afterburner": {
+    target: "projectafterburner.github.io/website",
+    proxied: true,
+  },
   "atordvairn": {
     target: "atordvairn.netlify.app",
   },
