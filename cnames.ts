@@ -122,6 +122,9 @@ export default <CNAMEs> {
   "python": {
     target: "python-mod-land.deno.dev",
   },
+  "pzwboy": {
+    target: "pzwboy.github.io",
+  },
   "range": {
     target: "leonskidev.github.io/range",
   },
