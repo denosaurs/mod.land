@@ -116,6 +116,10 @@ export default <CNAMEs> {
   "lilac": {
     target: "lilac-nine.vercel.app",
   },
+  "logskele": {
+    target: "logskele.github.io",
+    proxied: false,
+  }
   "natico": {
     target: "naticoo.github.io",
   },
