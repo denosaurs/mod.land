@@ -136,8 +136,7 @@ export default <CNAMEs> {
     proxied: false,
   },
   "sneachta": {
-    target: "sneachta.vercel.app",
-    proxied: false,
+    target: "mirakelor.github.io/sneachta",
   },
   "suzumi": {
     target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
