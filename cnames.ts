@@ -44,11 +44,18 @@ export default <CNAMEs> {
   "adons": {
     target: "adons.vercel.app",
   },
+  "afterburner": {
+    target: "projectafterburner.github.io/website",
+    proxied: true,
+  },
   "atordvairn": {
     target: "atordvairn.netlify.app",
   },
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
+  },
+  "cr": {
+    target: "rahalkar.dev",
   },
   "crewdevio": {
     target: "crewdevio.vercel.app",
@@ -102,11 +109,21 @@ export default <CNAMEs> {
   "imlshorid": {
     target: "imlshorid.github.io",
   },
+  "janda": {
+    target: "janda.up.railway.app",
+    proxied: false,
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
+  "lilac": {
+    target: "lilac-nine.vercel.app",
+  },
   "natico": {
     target: "naticoo.github.io",
+  },
+  "python": {
+    target: "python-mod-land.deno.dev",
   },
   "range": {
     target: "leonskidev.github.io/range",
@@ -121,8 +138,13 @@ export default <CNAMEs> {
     target: "hosting.gitbook.io",
     proxied: false,
   },
+  "sneachta": {
+    target: "sneachta.vercel.app",
+    proxied: false,
+  },
   "suzumi": {
-    target: "suzumi-ultimate.up.railway.app",
+    target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
+    proxied: false,
   },
   "the-all-javascript-blog": {
     target: "the-all-javascript-blog.vercel.app",
@@ -139,5 +161,8 @@ export default <CNAMEs> {
   },
   "x": {
     target: "xdev.deno.dev",
+  },
+  "zeusgang": {
+    target: "zeusgangws.github.io",
   },
 };
