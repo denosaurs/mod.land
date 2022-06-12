@@ -162,4 +162,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "titan": {
++   target: "titan-family.vercel.app",
++ },
 };
