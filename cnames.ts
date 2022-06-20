@@ -162,4 +162,12 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "w": {
+    target: "md-wz.vercel.app",
+    proxied: false,
+  },
+  "l": {
+    target: "md-wz.vercel.app",
+    proxied: false,
+  },
 };
