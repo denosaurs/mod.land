@@ -41,6 +41,10 @@ export default <CNAMEs> {
   "@": {
     target: "denosaurs.github.io/mod.land",
   },
+  "1001h": {
+    target: "qiqi.ngadem.in",
+    proxied: true,
+  },
   "adons": {
     target: "adons.vercel.app",
   },
@@ -102,9 +106,6 @@ export default <CNAMEs> {
   },
   "harmony-korean": {
     target: "akiacode.github.io/harmony.korean",
-  },
-  "imlshorid": {
-    target: "imlshorid.github.io",
   },
   "janda": {
     target: "janda.up.railway.app",
