@@ -79,8 +79,8 @@ export default <CNAMEs> {
   "discordeno": {
     target: "discordeno.github.io/guide",
   },
-  "disgrowth": {
-    target: "disgrowth-production.up.railway.app",
+  "disgrow": {
+    target: "disgrow-production.up.railway.app",
     proxied: false,
   },
   "dyno": {
