@@ -153,7 +153,7 @@ export default <CNAMEs> {
     target: "the-all-javascript-blog.vercel.app",
   },
   "thebigbot": {
-    target: "thebigbot0000.github.io",
+    target: "athebigbot.github.io",
   },
   "usbo": {
     target: "usbokirishima.github.io/profile",
