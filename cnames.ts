@@ -57,9 +57,6 @@ export default <CNAMEs> {
   "cr": {
     target: "rahalkar.dev",
   },
-   "community-changelog": {
-    target: "thebigbot.github.io/community-changelog/",
-  },
   "crewdevio": {
     target: "crewdevio.vercel.app",
   },
