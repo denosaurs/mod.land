@@ -128,6 +128,9 @@ export default <CNAMEs> {
   "rgrullon": {
     target: "rgrullon.netlify.app",
   },
+  "radio": {
+    target: "ayahchill.github.io",
+  },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
   },
