@@ -55,7 +55,7 @@ export default <CNAMEs> {
     target: "littledivy.github.io/autopilot-deno",
   },
   "biscuit": {
-    target: "oasisjs.github.io/biscuit-site",
+    target: "oasisjs.github.io/biscuit-web",
   },
   "cr": {
     target: "rahalkar.dev",
