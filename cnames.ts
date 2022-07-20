@@ -162,4 +162,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "ali": {
+    target: "zeptar1069.github.io/ali-website"
+  };
 };
