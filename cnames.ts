@@ -156,6 +156,10 @@ export default <CNAMEs> {
     target: "whistle.deno.dev",
     proxied: false,
   },
+  "william": {
+    target: "edge.redirect.pizza",
+    proxied: false,
+  }
   "x": {
     target: "xdev.deno.dev",
   },
