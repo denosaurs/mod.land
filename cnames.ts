@@ -163,6 +163,6 @@ export default <CNAMEs> {
     target: "zeusgangws.github.io",
   },
   "ali": {
-    target: "zeptar1069.github.io/ali-website"
+    target: "ali-mod-land.vercel.app"
   };
 };
