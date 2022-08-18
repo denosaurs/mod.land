@@ -49,7 +49,7 @@ export default <CNAMEs> {
     proxied: true,
   },
   "ask": {
-    target: "notgabry.github.io/ask"
+    target: "notgabry.github.io/ask",
   },
   "atordvairn": {
     target: "atordvairn.netlify.app",
