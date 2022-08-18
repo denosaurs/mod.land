@@ -48,6 +48,9 @@ export default <CNAMEs> {
     target: "projectafterburner.github.io/website",
     proxied: true,
   },
+  "ask": {
+    target: "notgabry.github.io/ask"
+  },
   "atordvairn": {
     target: "atordvairn.netlify.app",
   },
