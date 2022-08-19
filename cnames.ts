@@ -162,4 +162,8 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "kunalsingh19": {
+    target: "kunalsingh19.github.io",
+    proxied: false,
+  },
 };
