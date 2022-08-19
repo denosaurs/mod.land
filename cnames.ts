@@ -122,6 +122,9 @@ export default <CNAMEs> {
   "python": {
     target: "python-mod-land.deno.dev",
   },
+  "pupp": {
+    target: "pupp-mod-land.vercel.app"
+  },
   "range": {
     target: "leonskidev.github.io/range",
   },
