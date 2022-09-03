@@ -129,7 +129,7 @@ export default <CNAMEs> {
     target: "rgrullon.netlify.app",
   },
   "rwstudio": {
-    target: "rwstudio.github.io",
+    target: "ourstorycomic.github.io",
   },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
