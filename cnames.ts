@@ -119,6 +119,9 @@ export default <CNAMEs> {
   "natico": {
     target: "naticoo.github.io",
   },
+  "oreki": {
+    target: "oreki-dev.github.io",
+  },
   "python": {
     target: "python-mod-land.deno.dev",
   },
