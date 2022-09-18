@@ -54,6 +54,10 @@ export default <CNAMEs> {
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
+  "badboy": {
+    target: "struc.api.badboy.is-a.dev",
+    proxied: false,
+  },
   "cr": {
     target: "rahalkar.dev",
   },
