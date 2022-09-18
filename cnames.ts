@@ -79,6 +79,9 @@ export default <CNAMEs> {
   "discordeno": {
     target: "discordeno.github.io/guide",
   },
+  "baduy": {
+    target: "ourstorycomic.github.io/baber",
+  },
   "dyno": {
     target: "dynoland.netlify.app",
   },
