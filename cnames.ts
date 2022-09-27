@@ -162,4 +162,13 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "nikolahristov": {
+    target: "nikolahristov.tech",
+  },
+  "nikola": {
+    target: "nikolahristov.tech",
+  },
+  "lightrix": {
+    target: "lightrix.dev",
+  },
 };
