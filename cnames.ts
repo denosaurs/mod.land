@@ -159,6 +159,9 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "zeptar": {
+    target: "zeptar.vercel.app",
+  },
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
