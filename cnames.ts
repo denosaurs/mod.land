@@ -104,7 +104,7 @@ export default <CNAMEs> {
     target: "akiacode.github.io/harmony.korean",
   },
   "hex": {
-    target: "github.com/eserozvataf/hex",
+    target: "eserozvataf.github.io/hex",
   },
   "imlshorid": {
     target: "imlshorid.github.io",
