@@ -44,6 +44,9 @@ export default <CNAMEs> {
   "adons": {
     target: "adons.vercel.app",
   },
+  "akumas": {
+    target: "akumas.vercel.app/",
+  },
   "afterburner": {
     target: "projectafterburner.github.io/website",
     proxied: true,
