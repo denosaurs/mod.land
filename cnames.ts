@@ -131,6 +131,10 @@ export default <CNAMEs> {
   "rgrullon": {
     target: "rgrullon.netlify.app",
   },
+  "semant": {
+    target: "1c1cdaeb-374d-4273-bd14-b7e96b091f72.id.repl.co",
+    proxied: false,
+  },
   "shyngys": {
     target: "salemalem.github.io/twd-portfolio",
   },
