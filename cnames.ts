@@ -165,4 +165,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "sinner": {
+    target: "sinnerapp.github.io"
+  }
 };
