@@ -143,7 +143,7 @@ export default <CNAMEs> {
     proxied: false,
   },
   "suzumi": {
-    target: "eae8cbdf-2582-400d-8f63-beef5acd45bb.id.repl.co",
+    target: "121406fe-7629-40fb-907c-bf87819ceaeb.id.repl.co",
     proxied: false,
   },
   "the-all-javascript-blog": {
