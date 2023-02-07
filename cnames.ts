@@ -168,4 +168,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+    "shadow": {
+    target: "shadowolfx.vercel.app",
+  },
 };
