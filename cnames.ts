@@ -82,6 +82,9 @@ export default <CNAMEs> {
   "dyno": {
     target: "dynoland.netlify.app",
   },
+  "felascione": {
+    target: "felascione.pages.dev"
+  },
   "gabry": {
     target: "gabry-site-production.up.railway.app",
   },
