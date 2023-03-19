@@ -122,6 +122,9 @@ export default <CNAMEs> {
   "lilac": {
     target: "lilac-nine.vercel.app",
   },
+  "mastermach50": {
+    target: "mastermach50.github.io",
+  },
   "natico": {
     target: "naticoo.github.io",
   },
