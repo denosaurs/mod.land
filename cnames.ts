@@ -132,7 +132,7 @@ export default <CNAMEs> {
     target: "leonskidev.github.io/range",
   },
   "rclone": {
-    target: "https://sntran.github.io/denolcr",
+    target: "sntran.github.io/denolcr",
   },
   "rgrullon": {
     target: "rgrullon.netlify.app",
