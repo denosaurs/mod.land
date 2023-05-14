@@ -119,6 +119,9 @@ export default <CNAMEs> {
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
+  "keyv2": {
+    target: "skorotkiewicz.github.io/deno-keyv-2",
+  },
   "lilac": {
     target: "lilac-nine.vercel.app",
   },
