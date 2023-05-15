@@ -55,7 +55,7 @@ export default <CNAMEs> {
     target: "littledivy.github.io/autopilot-deno",
   },
   "cheetah": {
-    target: "cheetah-2s1.pages.dev"
+    target: "cheetah-2s1.pages.dev",
   },
   "cr": {
     target: "rahalkar.dev",
