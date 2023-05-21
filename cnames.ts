@@ -103,6 +103,9 @@ export default <CNAMEs> {
   "godwhite": {
     target: "docs.godwhite.tk",
   },
+  "guilded": {
+    target: "guildedts.vercel.app",
+  },
   "harmony": {
     target: "harmonyland.github.io",
   },
