@@ -51,6 +51,9 @@ export default <CNAMEs> {
   "atordvairn": {
     target: "atordvairn.netlify.app",
   },
+  "authenticus": {
+    target: "authenticus.pages.dev",
+  },
   "autopilot": {
     target: "littledivy.github.io/autopilot-deno",
   },
