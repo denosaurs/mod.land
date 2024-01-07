@@ -186,4 +186,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "thefrequency": {
+    target: "https://tfmlmusic.github.io/site",
+  },
 };
