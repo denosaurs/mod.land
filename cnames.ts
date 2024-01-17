@@ -188,5 +188,9 @@ export default <CNAMEs> {
   },
   "zeusgang": {
     target: "zeusgangws.github.io",
-  } 
+  },
+    "zatoga": {
+    target: "zatoga.pages.dev",
+    proxied: true,
+  },  
 };
