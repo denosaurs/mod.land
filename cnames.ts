@@ -91,6 +91,9 @@ export default <CNAMEs> {
   "felascione": {
     target: "felascione.pages.dev",
   },
+  "fossbay": {
+    target: "fossbay.github.io",
+  },
   "gabry": {
     target: "gabry-site-production.up.railway.app",
   },
@@ -192,5 +195,5 @@ export default <CNAMEs> {
     "zatoga": {
     target: "zatoga.pages.dev",
     proxied: true,
-  },  
+  },
 };
