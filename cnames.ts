@@ -195,5 +195,5 @@ export default <CNAMEs> {
     "zatoga": {
     target: "zatoga.pages.dev",
     proxied: true,
-  },
+  }
 };
