@@ -189,11 +189,11 @@ export default <CNAMEs> {
   "x": {
     target: "xdev.deno.dev",
   },
+  "zatoga": {
+    target: "zatoga.pages.dev",
+    proxied: true,
+  },
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
-    "zatoga": {
-    target: "zatoga.pages.dev",
-    proxied: true,
-  }
 };
