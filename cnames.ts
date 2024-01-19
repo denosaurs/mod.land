@@ -91,6 +91,9 @@ export default <CNAMEs> {
   "felascione": {
     target: "felascione.pages.dev",
   },
+  "fossbay": {
+    target: "fossbay.github.io",
+  },
   "gabry": {
     target: "gabry-site-production.up.railway.app",
   },
@@ -173,6 +176,9 @@ export default <CNAMEs> {
   "thebigbot": {
     target: "thebigbot0000.github.io",
   },
+   "thefrequency": {
+    target: "tfmlmusic.github.io/site",
+  },
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
@@ -186,7 +192,8 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
-  "thefrequency": {
-    target: "https://tfmlmusic.github.io/site",
-  },
+    "zatoga": {
+    target: "zatoga.pages.dev",
+    proxied: true,
+  }
 };
