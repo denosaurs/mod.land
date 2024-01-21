@@ -176,7 +176,7 @@ export default <CNAMEs> {
   "thebigbot": {
     target: "thebigbot0000.github.io",
   },
-   "thefrequency": {
+  "thefrequency": {
     target: "tfmlmusic.github.io/site",
   },
   "usbo": {
