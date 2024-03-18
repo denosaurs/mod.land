@@ -179,6 +179,9 @@ export default <CNAMEs> {
   "thefrequency": {
     target: "tfmlmusic.github.io/site",
   },
+  "updater": {
+    target: "updater-9kn.pages.dev",
+  },
   "usbo": {
     target: "usbokirishima.github.io/profile",
   },
