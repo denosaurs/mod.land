@@ -199,4 +199,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "khorm": {
+    target: "s1.khorm.click",
+  },
 };
