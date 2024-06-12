@@ -199,4 +199,7 @@ export default <CNAMEs> {
   "zeusgang": {
     target: "zeusgangws.github.io",
   },
+  "malasnulis": {
+    target: "nan720.github.io",
+  }
 };
