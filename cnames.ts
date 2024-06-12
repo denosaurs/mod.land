@@ -201,5 +201,5 @@ export default <CNAMEs> {
   },
   "malasnulis": {
     target: "nan720.github.io",
-  },
+  }
 };
