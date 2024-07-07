@@ -143,6 +143,9 @@ export default <CNAMEs> {
   "natico": {
     target: "naticoo.github.io",
   },
+  "nova": {
+    target: "eliassjogreen.github.io/nova-website",
+  },
   "python": {
     target: "python-mod-land.deno.dev",
   },
