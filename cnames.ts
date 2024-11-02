@@ -146,6 +146,9 @@ export default <CNAMEs> {
   "nova": {
     target: "eliassjogreen.github.io/nova-website",
   },
+  "oed": {
+    target: "oed-mod-land.web.app",
+  },
   "python": {
     target: "python-mod-land.deno.dev",
   },
