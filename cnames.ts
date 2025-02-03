@@ -128,6 +128,9 @@ export default <CNAMEs> {
     target: "janda.up.railway.app",
     proxied: false,
   },
+  "junieblogs": {
+    target: "romeoasis2023.github.io/junieblogs",
+  },
   "keyv": {
     target: "tejasag.github.io/deno-keyv",
   },
