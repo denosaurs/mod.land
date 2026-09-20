@@ -88,6 +88,9 @@ export default <CNAMEs> {
   "dyno": {
     target: "dynoland.netlify.app",
   },
+  "enrris": {
+    target: "myhaha73.github.io/enrris",
+  },
   "felascione": {
     target: "felascione.pages.dev",
   },
